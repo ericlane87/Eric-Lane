@@ -583,20 +583,6 @@
       border-left: 4px solid var(--gold);
     }
 
-    .case-flow {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-      margin-top: 16px;
-    }
-
-    .flow-step {
-      background: var(--soft);
-      border: 1px solid var(--rule);
-      padding: 15px;
-      min-height: 120px;
-    }
-
     .transformation-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -635,13 +621,6 @@
       margin: 0;
       color: var(--muted);
       font-size: 10.1pt;
-    }
-
-    .flow-step strong {
-      display: block;
-      color: var(--accent-dark);
-      font-size: 12pt;
-      margin-bottom: 7px;
     }
 
     details {
@@ -711,8 +690,7 @@
       .lifecycle,
       .outcome-list,
       .transformation-grid,
-      .problem-list,
-      .case-flow {
+      .problem-list {
         grid-template-columns: 1fr;
       }
 
@@ -1251,16 +1229,6 @@
           <h3>Process Chaos</h3>
           <p>Translate messy workflows into requirements, solution designs, implementation plans, and measurable execution paths.</p>
         </article>
-      </div>
-    </div>
-
-    <div class="web-panel">
-      <div class="web-eyebrow">Consulting Case Pattern</div>
-      <h2 class="web-title">How I turn operational pain into delivered automation.</h2>
-      <div class="case-flow">
-        <div class="flow-step"><strong>1. Diagnose</strong>Run stakeholder discovery, inspect the work queue, identify repeatable manual effort, and isolate measurable automation opportunities.</div>
-        <div class="flow-step"><strong>2. Build</strong>Design practical solutions using the right mix of UiPath, OCR, VBA/macros, SQL, Python, scripts, and workflow documentation.</div>
-        <div class="flow-step"><strong>3. Enable</strong>Package the fix with documentation, training, support resources, and governance so teams can adopt and sustain the automation.</div>
       </div>
     </div>
 
