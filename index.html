@@ -631,6 +631,45 @@
     }
 
     @media (max-width: 900px) {
+      body {
+        font-size: 11pt;
+        line-height: 1.48;
+      }
+
+      .page {
+        width: min(100%, 760px);
+        min-height: 0;
+        margin: 0 auto;
+        box-shadow: none;
+      }
+
+      .page::before {
+        width: 6px;
+      }
+
+      .inner {
+        padding: 28px 20px 30px 28px;
+      }
+
+      h1 {
+        font-size: 24pt;
+        line-height: 1;
+      }
+
+      .headline {
+        font-size: 11.2pt;
+        line-height: 1.28;
+      }
+
+      h2 {
+        font-size: 10.4pt;
+        margin-top: 18px;
+      }
+
+      h3 {
+        font-size: 12.8pt;
+      }
+
       .web-hero,
       .summary-block,
       .skills,
@@ -648,14 +687,134 @@
       .contact {
         text-align: left;
         white-space: normal;
+        font-size: 10.2pt;
       }
 
       header {
         grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .role {
+        grid-template-columns: 1fr;
+        gap: 2px;
+        margin-top: 14px;
+      }
+
+      .date {
+        white-space: normal;
+      }
+
+      .metric-strip {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .skill-card {
+        min-height: 0;
+      }
+
+      .stacked {
+        padding-left: 10px;
+      }
+
+      .web-shell {
+        width: 100%;
+        margin-bottom: 0;
+      }
+
+      .web-panel {
+        margin-top: 14px;
+        padding: 24px 20px;
+        box-shadow: none;
+      }
+
+      .web-title {
+        font-size: 19pt;
+        line-height: 1.16;
+      }
+
+      .web-copy {
+        font-size: 11pt;
+      }
+
+      .actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .button {
+        width: 100%;
+        min-height: 44px;
+      }
+
+      .difference-item {
+        border-right: 0;
+        border-bottom: 1px solid var(--rule);
+        min-height: 0;
+      }
+
+      .difference-item:last-child {
+        border-bottom: 0;
+      }
+
+      .lifecycle-step {
+        min-height: 44px;
+      }
+
+      .outcome-list div {
+        padding-top: 9px;
+        padding-bottom: 9px;
+      }
+
+      .role-tags span {
+        width: 100%;
+        justify-content: center;
       }
 
       .action-card {
         width: 100%;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .inner {
+        padding: 24px 16px 28px 22px;
+      }
+
+      h1 {
+        font-size: 22pt;
+      }
+
+      .headline {
+        font-size: 10.6pt;
+      }
+
+      .metric-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .metric,
+      .metric:nth-child(2),
+      .metric:nth-child(3),
+      .metric:nth-child(4) {
+        border-right: 0;
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .metric:last-child {
+        border-bottom: 0;
+      }
+
+      ul {
+        margin-left: 16px;
+      }
+
+      .web-panel {
+        padding: 22px 16px;
+      }
+
+      .web-title {
+        font-size: 17.5pt;
       }
     }
 
