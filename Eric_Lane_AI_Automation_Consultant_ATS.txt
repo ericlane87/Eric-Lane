@@ -1,0 +1,131 @@
+ERIC LANE
+Charlotte, NC
+ericlane87@gmail.com
+Phone on request
+LinkedIn: https://www.linkedin.com/in/eric-lane-m-s-747507131/
+
+TARGET ROLES
+Digital Transformation Leader; AI Automation Consultant; Automation Consultant; Intelligent Automation Consultant; RPA Consultant; UiPath Consultant; Healthcare Automation Consultant; AI Operations Consultant; Business Process Automation Consultant
+
+PROFESSIONAL SUMMARY
+Digital transformation and AI automation leader with healthcare operations experience building automation functions, scaling teams, and modernizing manual workflows through UiPath, OCR, SQL, Python, VBA, and process redesign. Combines consultant-level discovery, roadmap thinking, stakeholder management, and solution design with hands-on ability to build code, implement solutions, and drive adoption. Strong record creating operating models and automation programs that reduce inventory, accelerate claims and dispute operations, eliminate manual work, and exceed financial targets.
+
+AUTOMATION AND AI SKILLS
+AI Automation
+Automation Consulting
+Digital Transformation
+UiPath
+RPA
+Intelligent Automation
+OCR
+Document Automation
+Data Extraction
+Process Automation
+Workflow Automation
+Business Process Improvement
+Process Discovery
+Automation Roadmap
+Process Modernization
+Bot Development
+Manual Work Reduction
+
+TECHNICAL SKILLS
+Python
+SQL
+C#
+.NET
+VBA
+Excel Macros
+Automation Scripting
+ETL Recovery
+Spreadsheet Automation
+System Diagnostics
+Operational Reporting
+
+CONSULTING AND LEADERSHIP SKILLS
+Requirements Gathering
+Transformation Strategy
+Operating Model Design
+Solution Design
+Hands-On Implementation
+Stakeholder Management
+Implementation Documentation
+Governance
+Training Enablement
+Change Management
+Agile
+SDLC
+Team Building
+Healthcare Operations
+Payment Integrity
+Claims Operations
+Operational Efficiency
+
+PROFESSIONAL EXPERIENCE
+
+Elevance Health, formerly Anthem Inc.
+AI and Automation Consultant
+November 2024 to Present
+
+- Created a new AI and automation consulting function to identify, prioritize, document, and deliver automation opportunities across healthcare operations.
+- Supported automation consulting needs for leaders and operational groups representing 600+ employees, translating team-level friction into scalable automation opportunities.
+- Managed a 15+ opportunity automation portfolio and maintained quarterly automation roadmaps throughout consultant tenure.
+- Authored a healthcare operations automation consulting playbook defining intake, discovery, value calculation, prioritization, LOE templates, governance gates, launch readiness, retrospectives, and continuous improvement standards.
+- Built automation strategy and delivery structure for healthcare operations, prioritizing high-value workflows across claims, disputes, reporting, and team productivity.
+- Created executive-ready automation business cases and LOE documents with scope, phased delivery timelines, ROI, risks, success criteria, capacity lift, SLA recovery, and post-automation efficiency gains.
+- Delivered $6.8M in consultant-led savings across two program years, including $1.5M in year one and $5.3M in year two.
+- Built portfolio analysis for targeted automation initiatives with projected $1.38M annual return, 3.97x ROI, and capacity gains across claims workflow use cases.
+- Eliminated 140+ hours of manual work by delivering UiPath, VBA/macro, spreadsheet, and script-based automation solutions.
+- Led stakeholder discovery and translated operational pain points into automation requirements, solution designs, implementation plans, and reusable delivery documentation.
+- Built OCR-based dispute routing and data extraction automation to reduce manual spreadsheet handling and improve operational throughput.
+- Led enterprise UiPath access proposal to democratize automation, expand bot development beyond centralized technical teams, and support business-led transformation.
+- Developed UiPath training, support resources, and reusable delivery guidance that reduced onboarding time for new UiPath developers by 20+ hours.
+- Partnered with operations teams to turn recurring manual tasks into repeatable automation patterns using OCR, UiPath, Excel automation, and SQL-driven analysis.
+
+Elevance Health, formerly Anthem Inc.
+Manager, Payment Integrity
+November 2023 to November 2024
+
+- Built and scaled a new Payment Integrity team, hiring more than 95 percent of staff and creating the operating structure, policies, documentation, and coaching model.
+- Reduced operational inventory by 90 percent through AI-enabled automation, process redesign, and disciplined execution.
+- Delivered $26M across two years against $20M in combined targets, exceeding goals by $3M in year one and $3M in year two.
+- Established repeatable workflows, performance expectations, quality practices, documentation, and governance to support consistent execution across a newly formed team.
+- Led change management by coaching staff through process modernization, automation adoption, and operational performance improvements in a high-volume healthcare environment.
+
+Elevance Health, formerly Anthem Inc.
+Software Engineer and System Analyst
+Dates available on request
+
+- Built internal tools using .NET, C#, SQL, and Python to automate claims operations, ETL recovery, system diagnostics, and operational reporting.
+- Developed automation and monitoring tools that reduced processing time, improved issue visibility, and decreased downtime for internal systems.
+- Supported SDLC delivery across analysis, design, development, troubleshooting, testing, and production support for healthcare technology workflows.
+- Used SQL, Python, and C# to investigate system issues, recover failed processing, and streamline repeatable technical operations.
+
+SELECTED IMPACT
+- Combined operator, consultant, and builder experience to identify business pain, design automation strategy, implement technical solutions, and drive team adoption.
+- Supported leaders and operational user groups representing 600+ employees through automation consulting, discovery, and enablement.
+- Managed a 15+ opportunity automation portfolio with quarterly roadmap ownership.
+- Reduced operational inventory by 90 percent through AI, automation, process redesign, and team execution.
+- Delivered $6.8M in consultant-led savings across two program years.
+- Authored department-level consulting playbook and executive automation business cases covering intake, value calculation, prioritization, governance, LOE, ROI, and adoption.
+- Delivered $26M in financial impact across two years against $20M in combined targets.
+- Automated 140+ hours of manual work as an AI and automation consultant.
+- Saved new UiPath developers 20+ hours through targeted training and support resources.
+- Built and scaled a Payment Integrity team, hiring more than 95 percent of staff.
+
+EDUCATION
+Aspen University
+M.S. in Information Systems
+
+ECPI University
+Bachelor in Computer Science
+
+ECPI University
+Associate Degree in Cyber and Network Security
+
+Enterprise Application Development
+Education and training program
+
+CERTIFICATIONS
+Certified UiPath Developer
+Decisions Certification

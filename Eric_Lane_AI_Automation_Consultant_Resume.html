@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eric Lane - AI Automation Consultant Resume</title>
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #5b6573;
+      --rule: #d5dde5;
+      --accent: #0f6b63;
+      --accent-dark: #0b403c;
+      --gold: #b7791f;
+      --soft: #eef6f4;
+      --paper: #ffffff;
+      --canvas: #eef2f5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--canvas);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.4pt;
+      line-height: 1.35;
+    }
+
+    .page {
+      width: 8.5in;
+      min-height: 11in;
+      margin: 24px auto;
+      padding: 0;
+      background: var(--paper);
+      box-shadow: 0 16px 44px rgba(23, 32, 42, 0.16);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0.16in;
+      background: var(--accent);
+    }
+
+    .inner {
+      padding: 0.46in 0.56in 0.46in 0.68in;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: start;
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--ink);
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 30pt;
+      line-height: 0.96;
+      letter-spacing: 0;
+    }
+
+    .headline {
+      margin-top: 8px;
+      color: var(--accent);
+      font-size: 12.2pt;
+      font-weight: 700;
+    }
+
+    .contact {
+      color: var(--muted);
+      font-size: 9.8pt;
+      line-height: 1.45;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .print-portfolio-card {
+      display: none;
+    }
+
+    .summary-block {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 18px;
+      margin-top: 13px;
+      align-items: stretch;
+    }
+
+    .summary {
+      padding-right: 4px;
+      font-size: 10.7pt;
+    }
+
+    .metric-strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid var(--rule);
+      background: var(--soft);
+    }
+
+    .metric {
+      padding: 9px 10px;
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      min-height: 58px;
+    }
+
+    .metric:nth-child(2),
+    .metric:nth-child(4) {
+      border-right: 0;
+    }
+
+    .metric:nth-child(3),
+    .metric:nth-child(4) {
+      border-bottom: 0;
+    }
+
+    .metric strong {
+      display: block;
+      color: var(--accent-dark);
+      font-size: 16pt;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 8.8pt;
+      line-height: 1.22;
+      display: block;
+    }
+
+    h2 {
+      margin: 14px 0 7px;
+      color: var(--accent-dark);
+      font-size: 10.3pt;
+      line-height: 1.1;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    h2::after {
+      content: "";
+      height: 1px;
+      background: var(--rule);
+      flex: 1;
+    }
+
+    h3 {
+      margin: 10px 0 2px;
+      font-size: 12pt;
+      line-height: 1.15;
+      color: var(--ink);
+    }
+
+    p {
+      margin: 0 0 8px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+      margin-top: 5px;
+    }
+
+    .skill-card {
+      border-top: 3px solid var(--accent);
+      background: #f8fafb;
+      padding: 8px 9px;
+      min-height: 92px;
+    }
+
+    .skill-card strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--ink);
+      font-size: 9.8pt;
+    }
+
+    .skill-card span {
+      color: var(--muted);
+      font-size: 9.2pt;
+    }
+
+    .role {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      margin-top: 8px;
+      align-items: baseline;
+    }
+
+    .role-title {
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 9.4pt;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .company {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .company::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: var(--gold);
+      display: inline-block;
+    }
+
+    ul {
+      margin: 5px 0 0 18px;
+      padding: 0;
+    }
+
+    li {
+      margin: 3.2px 0;
+      padding-left: 2px;
+    }
+
+    li::marker {
+      color: var(--accent);
+    }
+
+    .stacked {
+      margin-top: 2px;
+      padding-left: 12px;
+      border-left: 2px solid var(--rule);
+    }
+
+    .cert {
+      display: inline-block;
+      padding: 6px 9px;
+      background: #f8fafb;
+      border-left: 3px solid var(--gold);
+      font-weight: 700;
+      margin: 0 6px 6px 0;
+    }
+
+    .education-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px 12px;
+      margin-top: 6px;
+    }
+
+    .education-item {
+      border-left: 3px solid var(--accent);
+      background: #f8fafb;
+      padding: 7px 9px;
+    }
+
+    .education-item strong {
+      display: block;
+      font-size: 9.8pt;
+    }
+
+    .education-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 9.1pt;
+    }
+
+    .web-shell {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto 40px;
+      color: var(--ink);
+    }
+
+    .web-panel {
+      background: var(--paper);
+      box-shadow: 0 14px 36px rgba(23, 32, 42, 0.12);
+      padding: 30px;
+      margin-top: 22px;
+    }
+
+    .web-hero {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: center;
+      border-top: 5px solid var(--accent);
+    }
+
+    .web-eyebrow {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 10pt;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      margin-bottom: 7px;
+    }
+
+    .web-title {
+      margin: 0;
+      font-size: 24pt;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .web-copy {
+      color: var(--muted);
+      font-size: 11pt;
+      max-width: 760px;
+      margin-top: 10px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 9px 13px;
+      border: 1px solid var(--accent);
+      color: var(--accent-dark);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 9.7pt;
+      background: #fff;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .action-card {
+      width: 170px;
+      text-align: center;
+      border: 1px solid var(--rule);
+      padding: 12px;
+      background: #f8fafb;
+    }
+
+    .action-card strong {
+      display: block;
+      color: var(--accent-dark);
+      font-size: 13pt;
+      line-height: 1.15;
+      margin-bottom: 7px;
+    }
+
+    .action-card span {
+      color: var(--muted);
+      font-size: 9.2pt;
+      line-height: 1.25;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .action-card .button {
+      width: 100%;
+      margin-top: 7px;
+    }
+
+    .web-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .story-card,
+    .problem-card,
+    .why-card {
+      border: 1px solid var(--rule);
+      background: #fff;
+      padding: 15px;
+    }
+
+    .story-card {
+      border-top: 4px solid var(--accent);
+    }
+
+    .story-card h3,
+    .problem-card h3,
+    .why-card h3 {
+      margin: 0 0 8px;
+      font-size: 13pt;
+    }
+
+    .story-card p,
+    .problem-card p,
+    .why-card p {
+      color: var(--muted);
+      font-size: 10.2pt;
+      margin: 0 0 8px;
+    }
+
+    .difference-band {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      margin-top: 16px;
+      border: 1px solid var(--rule);
+    }
+
+    .difference-item {
+      padding: 18px;
+      background: #fff;
+      border-right: 1px solid var(--rule);
+      min-height: 150px;
+    }
+
+    .difference-item:last-child {
+      border-right: 0;
+    }
+
+    .difference-item strong {
+      display: block;
+      color: var(--accent-dark);
+      font-size: 16pt;
+      margin-bottom: 8px;
+    }
+
+    .difference-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 10.3pt;
+    }
+
+    .lifecycle {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .lifecycle-step {
+      background: var(--soft);
+      border-top: 3px solid var(--accent);
+      padding: 10px 8px;
+      text-align: center;
+      font-weight: 700;
+      color: var(--accent-dark);
+      font-size: 9.4pt;
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .outcome-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 9px 16px;
+      margin-top: 14px;
+    }
+
+    .outcome-list div {
+      border-left: 3px solid var(--gold);
+      padding: 7px 0 7px 10px;
+      color: var(--muted);
+      background: #fff;
+    }
+
+    .role-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 15px;
+    }
+
+    .role-tags span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 7px 10px;
+      background: var(--soft);
+      color: var(--accent-dark);
+      border: 1px solid var(--rule);
+      font-weight: 700;
+      font-size: 9.5pt;
+    }
+
+    .story-card .label {
+      color: var(--accent-dark);
+      font-weight: 700;
+    }
+
+    .problem-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .problem-card {
+      min-height: 112px;
+      border-left: 4px solid var(--gold);
+    }
+
+    .case-flow {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .flow-step {
+      background: var(--soft);
+      border: 1px solid var(--rule);
+      padding: 15px;
+      min-height: 120px;
+    }
+
+    .transformation-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .transformation-card {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 12px;
+      border: 1px solid var(--rule);
+      background: #fff;
+      padding: 15px;
+      min-height: 120px;
+    }
+
+    .transformation-number {
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      font-size: 11pt;
+    }
+
+    .transformation-card h3 {
+      margin: 0 0 6px;
+      font-size: 12.5pt;
+    }
+
+    .transformation-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 10.1pt;
+    }
+
+    .flow-step strong {
+      display: block;
+      color: var(--accent-dark);
+      font-size: 12pt;
+      margin-bottom: 7px;
+    }
+
+    details {
+      border: 1px solid var(--rule);
+      padding: 13px 15px;
+      background: #fff;
+      margin-top: 10px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--accent-dark);
+    }
+
+    .details-body {
+      color: var(--muted);
+      margin-top: 9px;
+    }
+
+    @media (max-width: 900px) {
+      .web-hero,
+      .summary-block,
+      .skills,
+      .education-list,
+      .web-grid,
+      .difference-band,
+      .lifecycle,
+      .outcome-list,
+      .transformation-grid,
+      .problem-list,
+      .case-flow {
+        grid-template-columns: 1fr;
+      }
+
+      .contact {
+        text-align: left;
+        white-space: normal;
+      }
+
+      header {
+        grid-template-columns: 1fr;
+      }
+
+      .action-card {
+        width: 100%;
+      }
+    }
+
+    @page {
+      size: letter;
+      margin: 0;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: auto;
+        min-height: auto;
+        margin: 0;
+        box-shadow: none;
+      }
+
+      header {
+        grid-template-columns: 1fr auto auto;
+      }
+
+      .print-portfolio-card {
+        display: block;
+        width: 92px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 7.2pt;
+        line-height: 1.15;
+      }
+
+      .print-qr-placeholder {
+        width: 72px;
+        height: 72px;
+        margin: 0 auto 4px;
+        border: 2px solid var(--ink);
+        background:
+          linear-gradient(90deg, var(--ink) 10px, transparent 10px 18px, var(--ink) 18px 28px, transparent 28px 38px, var(--ink) 38px 48px, transparent 48px),
+          linear-gradient(var(--ink) 10px, transparent 10px 18px, var(--ink) 18px 28px, transparent 28px 38px, var(--ink) 38px 48px, transparent 48px);
+        background-size: 36px 36px;
+        background-color: #fff;
+      }
+
+      .web-shell {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="inner">
+      <header>
+        <div>
+          <h1>Eric Lane</h1>
+          <div class="headline">Digital Transformation &amp; AI Automation Leader | Healthcare Operations | UiPath, OCR, SQL, Python</div>
+        </div>
+        <div class="contact">
+          Charlotte, NC<br>
+          ericlane87@gmail.com<br>
+          Phone on request<br>
+          <a href="https://www.linkedin.com/in/eric-lane-m-s-747507131/">LinkedIn</a>
+        </div>
+        <div class="print-portfolio-card" aria-label="Portfolio QR placeholder">
+          <div class="print-qr-placeholder"></div>
+          View automation portfolio
+        </div>
+      </header>
+
+      <section class="summary-block">
+        <div>
+          <h2>Professional Summary</h2>
+          <p class="summary">Digital transformation and AI automation leader with healthcare operations experience building automation functions, scaling teams, and modernizing manual workflows through UiPath, OCR, SQL, Python, VBA, and process redesign. Combines consultant-level discovery, roadmap thinking, and stakeholder management with hands-on ability to build code, implement solutions, and drive adoption. Proven record creating operating models, enablement resources, and governance practices that improve adoption, reduce inventory, eliminate manual work, and exceed financial targets.</p>
+        </div>
+        <div class="metric-strip" aria-label="Selected measurable impact">
+          <div class="metric"><strong>90%</strong><span>inventory reduction through AI-enabled automation and process redesign</span></div>
+          <div class="metric"><strong>$26M</strong><span>delivered against $20M in combined financial targets</span></div>
+          <div class="metric"><strong>$6.8M</strong><span>consultant-led savings across two program years</span></div>
+          <div class="metric"><strong>140+</strong><span>manual hours automated through consulting-led delivery</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Core Skills</h2>
+        <div class="skills">
+          <div class="skill-card"><strong>Automation and AI</strong><span>Digital transformation, UiPath, RPA, intelligent automation, OCR, document automation, data extraction, workflow automation, process discovery, automation roadmap, bot development</span></div>
+          <div class="skill-card"><strong>Technical</strong><span>Python, SQL, C#, .NET, VBA, Excel macros, automation scripting, ETL recovery, spreadsheet automation, system diagnostics, operational reporting</span></div>
+          <div class="skill-card"><strong>Consulting and Leadership</strong><span>Transformation strategy, operating model design, requirements gathering, solution design, hands-on implementation, stakeholder management, implementation documentation, governance, training enablement, change management, Agile, SDLC</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Professional Experience</h2>
+        <h3><span class="company">Elevance Health, formerly Anthem Inc.</span></h3>
+        <div class="stacked">
+          <div class="role"><span class="role-title">AI and Automation Consultant</span><span class="date">November 2024 to Present</span></div>
+          <ul>
+            <li>Created a new AI and automation consulting function to identify, prioritize, document, and deliver automation opportunities across healthcare operations.</li>
+            <li>Supported automation consulting needs for leaders and operational groups representing 600+ employees, translating team-level friction into scalable automation opportunities.</li>
+            <li>Managed a 15+ opportunity automation portfolio and maintained quarterly automation roadmaps throughout consultant tenure.</li>
+            <li>Authored a healthcare operations automation consulting playbook defining intake, discovery, value calculation, prioritization, LOE templates, governance gates, launch readiness, retrospectives, and continuous improvement standards.</li>
+            <li>Built automation strategy and delivery structure for healthcare operations, prioritizing high-value workflows across claims, disputes, reporting, and team productivity.</li>
+            <li>Created executive-ready automation business cases and LOE documents with scope, phased delivery timelines, ROI, risks, success criteria, capacity lift, SLA recovery, and post-automation efficiency gains.</li>
+            <li>Delivered $6.8M in consultant-led savings across two program years, including $1.5M in year one and $5.3M in year two.</li>
+            <li>Built portfolio analysis for targeted automation initiatives with projected $1.38M annual return, 3.97x ROI, and capacity gains across claims workflow use cases.</li>
+            <li>Eliminated 140+ hours of manual work by delivering UiPath, VBA/macro, spreadsheet, and script-based automation solutions.</li>
+            <li>Led stakeholder discovery and translated operational pain points into automation requirements, solution designs, implementation plans, and reusable delivery documentation.</li>
+            <li>Built OCR-based dispute routing and data extraction automation to reduce manual spreadsheet handling and improve operational throughput.</li>
+            <li>Led enterprise UiPath access proposal to democratize automation, expand bot development beyond centralized technical teams, and support business-led transformation.</li>
+            <li>Developed UiPath training, support resources, and reusable delivery guidance that reduced onboarding time for new UiPath developers by 20+ hours.</li>
+          </ul>
+
+          <div class="role"><span class="role-title">Manager, Payment Integrity</span><span class="date">November 2023 to November 2024</span></div>
+          <ul>
+            <li>Built and scaled a healthcare operations team, hiring more than 95 percent of staff and creating the operating structure, policies, documentation, and coaching model.</li>
+            <li>Reduced operational inventory by 90 percent through AI-enabled automation, process redesign, and disciplined execution.</li>
+            <li>Delivered $26M across two years against $20M in combined targets, exceeding goals by $3M in year one and $3M in year two.</li>
+            <li>Established repeatable workflows, performance expectations, quality practices, documentation, and governance to support consistent execution across a newly formed team.</li>
+            <li>Led change management by coaching staff through process modernization, automation adoption, and operational performance improvements in a high-volume healthcare environment.</li>
+          </ul>
+          <div class="role"><span class="role-title">Software Engineer and System Analyst</span><span class="date">Dates available on request</span></div>
+          <ul>
+            <li>Built internal tools using .NET, C#, SQL, and Python to automate claims operations, ETL recovery, system diagnostics, and operational reporting.</li>
+            <li>Developed automation and monitoring tools that reduced processing time, improved issue visibility, and decreased downtime for internal systems.</li>
+            <li>Supported SDLC delivery across analysis, design, development, troubleshooting, testing, and production support for healthcare technology workflows.</li>
+            <li>Used SQL, Python, and C# to investigate system issues, recover failed processing, and streamline repeatable technical operations.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="education-list">
+          <div class="education-item"><strong>Aspen University</strong><span>M.S. in Information Systems</span></div>
+          <div class="education-item"><strong>ECPI University</strong><span>Bachelor in Computer Science</span></div>
+          <div class="education-item"><strong>ECPI University</strong><span>Associate Degree in Cyber and Network Security</span></div>
+          <div class="education-item"><strong>Enterprise Application Development</strong><span>Education and training program</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Certifications</h2>
+        <div class="cert">Certified UiPath Developer</div>
+        <div class="cert">Decisions Certification</div>
+      </section>
+    </div>
+  </main>
+
+  <section class="web-shell" aria-label="Automation portfolio">
+    <div class="web-panel web-hero">
+      <div>
+        <div class="web-eyebrow">Automation Portfolio</div>
+        <h2 class="web-title">Digital transformation work built around real operational friction.</h2>
+        <p class="web-copy">This page extends the resume with project stories, business problems solved, and recruiter-ready proof points for transformation strategy, AI automation, UiPath enablement, macros, reporting, OCR, governance, and healthcare operations modernization.</p>
+        <div class="actions">
+          <a class="button primary" href="Eric_Lane_AI_Automation_Consultant_Resume.docx">Download Word Resume</a>
+          <a class="button" href="Eric_Lane_AI_Automation_Consultant_ATS.txt">Download ATS Resume</a>
+          <a class="button" href="https://www.linkedin.com/in/eric-lane-m-s-747507131/">LinkedIn</a>
+          <a class="button" href="mailto:ericlane87@gmail.com">Email Eric</a>
+        </div>
+      </div>
+      <div class="action-card" aria-label="Employer actions">
+        <strong>Review-ready assets</strong>
+        <span>Use the polished resume for humans and the ATS copy for application systems.</span>
+        <a class="button primary" href="Eric_Lane_AI_Automation_Consultant_Resume.docx">Resume</a>
+        <a class="button" href="Eric_Lane_AI_Automation_Consultant_ATS.txt">ATS Copy</a>
+        <a class="button" href="https://www.linkedin.com/in/eric-lane-m-s-747507131/">LinkedIn</a>
+        <a class="button" href="mailto:ericlane87@gmail.com">Contact</a>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">What Makes Me Different</div>
+      <h2 class="web-title">The best of both worlds: consultant, operator, and builder.</h2>
+      <p class="web-copy">I can sit with business teams to understand the pain, shape the roadmap, and document the solution. I can also open the tools, write the code, build the automation, troubleshoot the workflow, and help the team adopt it. That combination is what makes the work practical instead of theoretical.</p>
+      <div class="difference-band">
+        <div class="difference-item">
+          <strong>Operator</strong>
+          <p>I understand healthcare operations, inventory pressure, team execution, quality expectations, and the daily friction behind manual work.</p>
+        </div>
+        <div class="difference-item">
+          <strong>Consultant</strong>
+          <p>I lead discovery, translate pain points into requirements, build implementation plans, manage stakeholders, and connect automation to measurable outcomes.</p>
+        </div>
+        <div class="difference-item">
+          <strong>Builder</strong>
+          <p>I can execute hands-on with UiPath, OCR, SQL, Python, C#, .NET, VBA, macros, scripts, reporting tools, and automation support resources.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Consulting Lifecycle</div>
+      <h2 class="web-title">I do more than recommend the work. I help deliver it.</h2>
+      <div class="lifecycle" aria-label="Consulting delivery lifecycle">
+        <div class="lifecycle-step">Discover</div>
+        <div class="lifecycle-step">Design</div>
+        <div class="lifecycle-step">Build</div>
+        <div class="lifecycle-step">Implement</div>
+        <div class="lifecycle-step">Enable</div>
+        <div class="lifecycle-step">Measure</div>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Target Outcomes</div>
+      <h2 class="web-title">The outcomes I am built to deliver.</h2>
+      <div class="outcome-list">
+        <div>Reduce manual processing, rework, and operational backlog.</div>
+        <div>Modernize spreadsheet-heavy workflows with automation and reporting.</div>
+        <div>Improve claims, dispute, and payment integrity workflow visibility.</div>
+        <div>Build automation roadmaps tied to measurable business value.</div>
+        <div>Manage automation portfolios across quarterly planning cycles.</div>
+        <div>Enable UiPath adoption through training, support, and reusable patterns.</div>
+        <div>Support leaders and user groups at scale, including organizations representing 600+ employees.</div>
+        <div>Create documentation and governance so automation survives after launch.</div>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Best Fit Roles</div>
+      <h2 class="web-title">Where this background creates the most value.</h2>
+      <div class="role-tags">
+        <span>Digital Transformation Leader</span>
+        <span>AI Automation Consultant</span>
+        <span>Intelligent Automation Consultant</span>
+        <span>UiPath / RPA Consultant</span>
+        <span>Healthcare Automation Consultant</span>
+        <span>Business Process Automation Lead</span>
+        <span>Automation Enablement Manager</span>
+        <span>AI Operations Consultant</span>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Digital Transformation Leadership</div>
+      <h2 class="web-title">From automation ideas to scalable operating change.</h2>
+      <div class="transformation-grid">
+        <article class="transformation-card">
+          <div class="transformation-number">01</div>
+          <div>
+            <h3>Strategy</h3>
+            <p>Managed a 15+ opportunity automation portfolio and maintained quarterly roadmaps around high-value workflows across claims, disputes, reporting, inventory reduction, and team productivity.</p>
+          </div>
+        </article>
+        <article class="transformation-card">
+          <div class="transformation-number">02</div>
+          <div>
+            <h3>Operating Model</h3>
+            <p>Created team structure, delivery documentation, implementation practices, and repeatable workflows to move automation from isolated fixes to a scalable function.</p>
+          </div>
+        </article>
+        <article class="transformation-card">
+          <div class="transformation-number">03</div>
+          <div>
+            <h3>Enablement</h3>
+            <p>Developed UiPath training and support resources that reduced onboarding time for new developers by 20+ hours and supported business-led automation adoption.</p>
+          </div>
+        </article>
+        <article class="transformation-card">
+          <div class="transformation-number">04</div>
+          <div>
+            <h3>Governance</h3>
+            <p>Established reusable documentation, delivery standards, and support resources to improve automation consistency, adoption, and sustainability.</p>
+          </div>
+        </article>
+        <article class="transformation-card">
+          <div class="transformation-number">05</div>
+          <div>
+            <h3>Change Management</h3>
+            <p>Coached teams through process modernization, automation adoption, and the shift from manual execution to repeatable automated workflows.</p>
+          </div>
+        </article>
+        <article class="transformation-card">
+          <div class="transformation-number">06</div>
+          <div>
+            <h3>Impact</h3>
+            <p>Delivered measurable outcomes including 90% inventory reduction, $26M against $20M in targets, $6.8M in consultant-led savings, 140+ hours automated, and 20+ hours saved for new UiPath developers.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">How I Lead Automation Delivery</div>
+      <h2 class="web-title">A sanitized overview of the methods I use to move automation from idea to measurable business impact.</h2>
+      <div class="web-grid">
+        <article class="story-card">
+          <h3>Consulting Operating Model</h3>
+          <p><span class="label">What it shows:</span> I can design the repeatable system behind automation delivery, not just complete one-off builds.</p>
+          <p><span class="label">Method:</span> Build intake, discovery, prioritization, governance, launch readiness, retrospective, and continuous improvement practices that make automation delivery consistent.</p>
+          <p><span class="label">Value:</span> Shows transformation leadership, enablement, governance thinking, and scalable delivery design.</p>
+        </article>
+        <article class="story-card">
+          <h3>Automation Business Case Development</h3>
+          <p><span class="label">What it shows:</span> I can turn automation ideas into leadership-ready investment cases with clear value and implementation logic.</p>
+          <p><span class="label">Method:</span> Connect scope, timeline, cost, ROI, risk, success criteria, resourcing, and post-automation efficiency gains into a decision-ready story.</p>
+          <p><span class="label">Value:</span> Shows the ability to translate technical automation into executive business language.</p>
+        </article>
+        <article class="story-card">
+          <h3>SLA and Capacity Analysis</h3>
+          <p><span class="label">What it shows:</span> I can frame automation as operational recovery, not only task reduction.</p>
+          <p><span class="label">Method:</span> Quantify throughput, capacity relief, SLA recovery potential, work acceleration, and the operational value of freeing resources.</p>
+          <p><span class="label">Value:</span> Shows ability to quantify value, influence leadership decisions, and prioritize automation based on measurable business impact.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Selected Automation Stories</div>
+      <h2 class="web-title">Project narratives built around the user story, fix, and business result.</h2>
+      <div class="web-grid">
+        <article class="story-card">
+          <h3>OCR Dispute Routing</h3>
+          <p><span class="label">User story:</span> Operations teams needed a faster way to classify and route dispute work without manually reviewing spreadsheets and documents.</p>
+          <p><span class="label">Fix:</span> Built OCR and data extraction logic to identify key fields, reduce manual review, and improve routing handoffs.</p>
+          <p><span class="label">Impact:</span> Reduced spreadsheet handling and improved operational throughput.</p>
+        </article>
+        <article class="story-card">
+          <h3>UiPath Developer Enablement</h3>
+          <p><span class="label">User story:</span> New UiPath developers were losing time figuring out setup, repeatable patterns, and practical automation practices.</p>
+          <p><span class="label">Fix:</span> Created training, support resources, and reusable delivery guidance for building practical automations.</p>
+          <p><span class="label">Impact:</span> Saved new developers 20+ hours and supported broader automation adoption.</p>
+        </article>
+        <article class="story-card">
+          <h3>Macro and Reporting Automation</h3>
+          <p><span class="label">User story:</span> Teams were spending recurring time on spreadsheet updates, reporting, and manual data cleanup.</p>
+          <p><span class="label">Fix:</span> Built VBA/macros, scripts, SQL reporting, and automation tools to standardize repeatable work.</p>
+          <p><span class="label">Impact:</span> Helped eliminate 140+ hours of manual work across automation consulting projects.</p>
+        </article>
+        <article class="story-card">
+          <h3>Consultant-Led Savings Growth</h3>
+          <p><span class="label">User story:</span> Operations needed automation work to translate into measurable financial savings, not only cleaner processes.</p>
+          <p><span class="label">Fix:</span> Prioritized high-value use cases, documented implementation paths, and connected automation delivery to business outcomes.</p>
+          <p><span class="label">Impact:</span> Delivered $1.5M in savings in year one and $5.3M in year two, totaling $6.8M across two program years.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Problems I Solve</div>
+      <h2 class="web-title">Where automation creates immediate operational leverage.</h2>
+      <div class="problem-list">
+        <article class="problem-card">
+          <h3>Manual Spreadsheet Work</h3>
+          <p>Replace repetitive Excel handling with macros, scripts, data extraction, validation, and repeatable reporting workflows.</p>
+        </article>
+        <article class="problem-card">
+          <h3>Claims and Dispute Routing</h3>
+          <p>Use OCR, rules, data checks, and workflow automation to move work faster with less manual triage.</p>
+        </article>
+        <article class="problem-card">
+          <h3>Reporting Bottlenecks</h3>
+          <p>Build SQL, Python, .NET, and dashboard-ready tools that improve visibility, recovery, and operational control.</p>
+        </article>
+        <article class="problem-card">
+          <h3>UiPath Adoption</h3>
+          <p>Create training, governance, and reusable resources so teams can build and maintain useful automations faster.</p>
+        </article>
+        <article class="problem-card">
+          <h3>Inventory Backlogs</h3>
+          <p>Combine automation, process redesign, and team operating structure to reduce aging work and improve throughput.</p>
+        </article>
+        <article class="problem-card">
+          <h3>Process Chaos</h3>
+          <p>Translate messy workflows into requirements, solution designs, implementation plans, and measurable execution paths.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Consulting Case Pattern</div>
+      <h2 class="web-title">How I turn operational pain into delivered automation.</h2>
+      <div class="case-flow">
+        <div class="flow-step"><strong>1. Diagnose</strong>Run stakeholder discovery, inspect the work queue, identify repeatable manual effort, and isolate measurable automation opportunities.</div>
+        <div class="flow-step"><strong>2. Build</strong>Design practical solutions using the right mix of UiPath, OCR, VBA/macros, SQL, Python, scripts, and workflow documentation.</div>
+        <div class="flow-step"><strong>3. Enable</strong>Package the fix with documentation, training, support resources, and governance so teams can adopt and sustain the automation.</div>
+      </div>
+    </div>
+
+    <div class="web-panel">
+      <div class="web-eyebrow">Why Eric</div>
+      <h2 class="web-title">A builder who understands operations, not just tools.</h2>
+      <div class="web-grid">
+        <article class="why-card">
+          <h3>Technical Builder</h3>
+          <p>Hands-on across UiPath, OCR, SQL, Python, C#, .NET, VBA, macros, and automation scripting.</p>
+        </article>
+        <article class="why-card">
+          <h3>Operations Leader</h3>
+          <p>Built and scaled teams, created operating structure, coached staff, and delivered measurable inventory and financial impact.</p>
+        </article>
+        <article class="why-card">
+          <h3>Healthcare Context</h3>
+          <p>Deep experience in payment integrity, claims operations, dispute workflows, ETL recovery, reporting, and operational controls.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
