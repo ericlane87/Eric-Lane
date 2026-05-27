@@ -74,13 +74,11 @@ Dates available on request
 
 ## Education
 
-Aspen University, M.S. in Information Systems
+Aspen University, M.S. in Information Systems, specialization in Enterprise Application Development
 
 ECPI University, Bachelor in Computer Science
 
 ECPI University, Associate Degree in Cyber and Network Security
-
-Enterprise Application Development, education and training program
 
 ## Certifications
 

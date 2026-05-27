@@ -123,15 +123,13 @@ SELECTED IMPACT
 EDUCATION
 Aspen University
 M.S. in Information Systems
+Specialization: Enterprise Application Development
 
 ECPI University
 Bachelor in Computer Science
 
 ECPI University
 Associate Degree in Cyber and Network Security
-
-Enterprise Application Development
-Education and training program
 
 CERTIFICATIONS
 Certified UiPath Developer
