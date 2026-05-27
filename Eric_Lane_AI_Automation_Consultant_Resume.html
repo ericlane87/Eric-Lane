@@ -482,23 +482,55 @@
 
     .lifecycle {
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 8px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
       margin-top: 16px;
     }
 
-    .lifecycle-step {
+    .lifecycle details {
       background: var(--soft);
       border-top: 3px solid var(--accent);
-      padding: 10px 8px;
-      text-align: center;
+      border-left: 1px solid var(--rule);
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .lifecycle summary {
+      min-height: 50px;
+      padding: 10px 12px;
+      cursor: pointer;
       font-weight: 700;
       color: var(--accent-dark);
       font-size: 9.8pt;
-      min-height: 54px;
       display: flex;
       align-items: center;
       justify-content: center;
+      text-align: center;
+      list-style: none;
+    }
+
+    .lifecycle summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .lifecycle summary::after {
+      content: "+";
+      margin-left: 8px;
+      color: var(--gold);
+      font-size: 13pt;
+      line-height: 1;
+    }
+
+    .lifecycle details[open] summary::after {
+      content: "-";
+    }
+
+    .lifecycle p {
+      margin: 0;
+      padding: 0 12px 12px;
+      color: var(--muted);
+      font-size: 10pt;
+      line-height: 1.38;
     }
 
     .outcome-list {
@@ -757,7 +789,7 @@
         border-bottom: 0;
       }
 
-      .lifecycle-step {
+      .lifecycle summary {
         min-height: 44px;
       }
 
@@ -1025,12 +1057,30 @@
       <div class="web-eyebrow">Consulting Lifecycle</div>
       <h2 class="web-title">I do more than recommend the work. I help deliver it.</h2>
       <div class="lifecycle" aria-label="Consulting delivery lifecycle">
-        <div class="lifecycle-step">Discover</div>
-        <div class="lifecycle-step">Design</div>
-        <div class="lifecycle-step">Build</div>
-        <div class="lifecycle-step">Implement</div>
-        <div class="lifecycle-step">Enable</div>
-        <div class="lifecycle-step">Measure</div>
+        <details>
+          <summary>Discover</summary>
+          <p>Identify pain points, volume, handle time, SLA pressure, risk, users impacted, and business value before choosing a tool.</p>
+        </details>
+        <details>
+          <summary>Design</summary>
+          <p>Translate findings into requirements, solution options, tool selection, controls, handoffs, and success criteria.</p>
+        </details>
+        <details>
+          <summary>Build</summary>
+          <p>Create the automation using the right fit: UiPath, OCR, SQL, Python, VBA/macros, scripts, reporting, or process redesign.</p>
+        </details>
+        <details>
+          <summary>Implement</summary>
+          <p>Coordinate testing, launch readiness, documentation, stakeholder signoff, deployment planning, and production handoff.</p>
+        </details>
+        <details>
+          <summary>Enable</summary>
+          <p>Train users, support developers, create reusable guidance, and help teams adopt the new workflow after launch.</p>
+        </details>
+        <details>
+          <summary>Measure</summary>
+          <p>Track savings, throughput, capacity relief, SLA recovery, adoption, exceptions, and improvement opportunities.</p>
+        </details>
       </div>
     </div>
 
