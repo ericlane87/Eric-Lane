@@ -45,13 +45,19 @@ November 2023 to November 2024
 - Established repeatable workflows, performance expectations, quality practices, documentation, and governance to support consistent execution across a newly formed team.
 - Led change management by coaching staff through process modernization, automation adoption, and operational performance improvements in a high-volume healthcare environment.
 
-#### Software Engineer and System Analyst
+#### Software Engineer
 Dates available on request
 
 - Built internal tools using .NET, C#, SQL, and Python to automate claims operations, ETL recovery, system diagnostics, and operational reporting.
 - Developed automation and monitoring tools that reduced processing time, improved issue visibility, and decreased downtime for internal systems.
-- Supported SDLC delivery across analysis, design, development, troubleshooting, testing, and production support for healthcare technology workflows.
 - Used SQL, Python, and C# to investigate system issues, recover failed processing, and streamline repeatable technical operations.
+
+#### System Analyst
+Dates available on request
+
+- Supported SDLC delivery across analysis, design, troubleshooting, testing, and production support for healthcare technology workflows.
+- Translated operational and system issues into technical requirements, diagnostics, recovery steps, and automation opportunities.
+- Partnered with business and technical teams to improve claims workflow visibility, issue resolution, and repeatable support processes.
 
 ## Selected Impact
 
