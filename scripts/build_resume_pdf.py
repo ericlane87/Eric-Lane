@@ -170,14 +170,22 @@ def main():
         c.drawString(sidebar_x + 14, sy, line)
         sy -= 9
     sy -= 8
-    sy = draw_section_label(c, "Credentials", sidebar_x + 14, sy, sidebar_w - 28)
-    for line in [
-        "Certified UiPath Developer",
-        "Decisions Certification",
-        "M.S. Information Systems, Aspen",
-        "B.S. Computer Science, ECPI",
-        "A.S. Cyber & Network Security, ECPI",
-    ]:
+    sy = draw_section_label(c, "Education", sidebar_x + 14, sy, sidebar_w - 28)
+    education = [
+        ("Aspen University", "M.S. Information Systems, Enterprise Application Development"),
+        ("ECPI University", "B.S. Computer Science"),
+        ("ECPI University", "A.S. Cyber & Network Security"),
+    ]
+    for school, degree in education:
+        c.setFillColor(INK)
+        c.setFont("Helvetica-Bold", 7.25)
+        c.drawString(sidebar_x + 14, sy, school)
+        sy -= 8.4
+        sy = draw_wrapped(c, degree, sidebar_x + 14, sy, sidebar_w - 28, size=6.85, leading=8.2, color=MUTED)
+        sy -= 3
+    sy -= 3
+    sy = draw_section_label(c, "Certifications", sidebar_x + 14, sy, sidebar_w - 28)
+    for line in ["Certified UiPath Developer", "Decisions Certification"]:
         sy = draw_bullet(c, line, sidebar_x + 14, sy, sidebar_w - 28, size=7.05, leading=8.5, color=MUTED)
 
     y = H - 1.20 * inch
