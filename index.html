@@ -858,16 +858,11 @@
         line-height: 1.15;
       }
 
-      .print-qr-placeholder {
+      .print-qr-image {
         width: 72px;
         height: 72px;
         margin: 0 auto 4px;
-        border: 2px solid var(--ink);
-        background:
-          linear-gradient(90deg, var(--ink) 10px, transparent 10px 18px, var(--ink) 18px 28px, transparent 28px 38px, var(--ink) 38px 48px, transparent 48px),
-          linear-gradient(var(--ink) 10px, transparent 10px 18px, var(--ink) 18px 28px, transparent 28px 38px, var(--ink) 38px 48px, transparent 48px);
-        background-size: 36px 36px;
-        background-color: #fff;
+        display: block;
       }
 
       body {
@@ -904,8 +899,8 @@
           Phone on request<br>
           <a class="social-link" href="https://www.linkedin.com/in/eric-lane-m-s-747507131/" aria-label="Eric Lane LinkedIn profile"><span class="linkedin-mark">in</span></a>
         </div>
-        <div class="print-portfolio-card" aria-label="Portfolio QR placeholder">
-          <div class="print-qr-placeholder"></div>
+        <div class="print-portfolio-card" aria-label="Portfolio QR code">
+          <img class="print-qr-image" src="portfolio-qr.svg" alt="QR code for Eric Lane automation portfolio">
           View automation portfolio
         </div>
       </header>
