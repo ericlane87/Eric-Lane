@@ -2,9 +2,9 @@
 
 Charlotte, NC | ericlane87@gmail.com | Phone on request | linkedin.com/in/eric-lane-m-s-747507131
 
-## Digital Transformation & AI Automation Leader | Healthcare Operations | UiPath, OCR, SQL, Python
+## Digital Transformation & AI Automation Leader | Operations Automation | UiPath, OCR, SQL, Python
 
-Digital transformation and AI automation leader with healthcare operations experience building automation functions, scaling teams, and modernizing manual workflows through UiPath, OCR, SQL, Python, VBA, and process redesign. Combines consultant-level discovery, roadmap thinking, and stakeholder management with hands-on ability to build code, implement solutions, and drive adoption. Proven record creating operating models, enablement resources, and governance practices that improve adoption, reduce inventory, eliminate manual work, and exceed financial targets.
+Digital transformation and AI automation leader with operations experience building automation functions, scaling teams, and modernizing manual workflows through UiPath, OCR, SQL, Python, VBA, and process redesign. Combines consultant-level discovery, roadmap thinking, and stakeholder management with hands-on ability to build code, implement solutions, and drive adoption. Proven record creating operating models, enablement resources, and governance practices that improve adoption, reduce inventory, eliminate manual work, and exceed financial targets.
 
 ## Core Skills
 
@@ -21,11 +21,11 @@ Consulting and Leadership: transformation strategy, operating model design, requ
 #### AI and Automation Consultant
 November 2024 to Present
 
-- Created a new AI and automation consulting function to identify, prioritize, document, and deliver automation opportunities across healthcare operations.
+- Created a new AI and automation consulting function to identify, prioritize, document, and deliver automation opportunities across enterprise operations.
 - Supported automation consulting needs for leaders and operational groups representing 600+ employees, translating team-level friction into scalable automation opportunities.
 - Managed a 15+ opportunity automation portfolio and maintained quarterly automation roadmaps throughout consultant tenure.
-- Authored a healthcare operations automation consulting playbook defining intake, discovery, value calculation, prioritization, LOE templates, governance gates, launch readiness, retrospectives, and continuous improvement standards.
-- Built automation strategy and delivery structure for healthcare operations, prioritizing high-value workflows across claims, disputes, reporting, and team productivity.
+- Authored an operations automation consulting playbook defining intake, discovery, value calculation, prioritization, LOE templates, governance gates, launch readiness, retrospectives, and continuous improvement standards.
+- Built automation strategy and delivery structure for high-volume regulated operations, prioritizing high-value workflows across claims, disputes, reporting, and team productivity.
 - Created executive-ready automation business cases and LOE documents with scope, phased delivery timelines, ROI, risks, success criteria, capacity lift, SLA recovery, and post-automation efficiency gains.
 - Delivered $6.8M in consultant-led savings across two program years, including $1.5M in year one and $5.3M in year two.
 - Built portfolio analysis for targeted automation initiatives with projected $1.38M annual return, 3.97x ROI, and capacity gains across claims workflow use cases.

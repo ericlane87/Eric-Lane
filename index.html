@@ -86,6 +86,40 @@
     }
 
     .print-portfolio-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 120px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 8.2pt;
+      line-height: 1.2;
+    }
+
+    .print-qr-image {
+      width: 72px;
+      height: 72px;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    .portfolio-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 26px;
+      margin-top: 6px;
+      padding: 5px 8px;
+      border: 1px solid var(--accent);
+      color: var(--accent-dark);
+      background: #fff;
+      text-decoration: none;
+      font-size: 7.6pt;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .print-portfolio-url {
       display: none;
     }
 
@@ -705,6 +739,10 @@
         gap: 12px;
       }
 
+      .print-portfolio-card {
+        display: none;
+      }
+
       .role {
         grid-template-columns: 1fr;
         gap: 2px;
@@ -851,7 +889,7 @@
 
       .print-portfolio-card {
         display: block;
-        width: 92px;
+        width: 106px;
         text-align: center;
         color: var(--muted);
         font-size: 7.2pt;
@@ -863,6 +901,18 @@
         height: 72px;
         margin: 0 auto 4px;
         display: block;
+      }
+
+      .portfolio-button {
+        display: none;
+      }
+
+      .print-portfolio-url {
+        display: block;
+        margin-top: 3px;
+        font-size: 5.9pt;
+        line-height: 1.1;
+        overflow-wrap: anywhere;
       }
 
       body {
@@ -891,7 +941,7 @@
       <header>
         <div>
           <h1>Eric Lane</h1>
-          <div class="headline">Digital Transformation &amp; AI Automation Leader | Healthcare Operations | UiPath, OCR, SQL, Python</div>
+          <div class="headline">Digital Transformation &amp; AI Automation Leader | Operations Automation | UiPath, OCR, SQL, Python</div>
         </div>
         <div class="contact">
           Charlotte, NC<br>
@@ -901,14 +951,16 @@
         </div>
         <div class="print-portfolio-card" aria-label="Portfolio QR code">
           <img class="print-qr-image" src="portfolio-qr.svg" alt="QR code for Eric Lane automation portfolio">
-          View automation portfolio
+          <span>View automation portfolio</span>
+          <a class="portfolio-button" href="https://ericlane87.github.io/Eric-Lane/">Open portfolio</a>
+          <span class="print-portfolio-url">ericlane87.github.io/Eric-Lane/</span>
         </div>
       </header>
 
       <section class="summary-block">
         <div>
           <h2>Professional Summary</h2>
-          <p class="summary">Digital transformation and AI automation leader with healthcare operations experience building automation functions, scaling teams, and modernizing manual workflows through UiPath, OCR, SQL, Python, VBA, and process redesign. Combines consultant-level discovery, roadmap thinking, and stakeholder management with hands-on ability to build code, implement solutions, and drive adoption. Proven record creating operating models, enablement resources, and governance practices that improve adoption, reduce inventory, eliminate manual work, and exceed financial targets.</p>
+          <p class="summary">Digital transformation and AI automation leader with operations experience building automation functions, scaling teams, and modernizing manual workflows through UiPath, OCR, SQL, Python, VBA, and process redesign. Combines consultant-level discovery, roadmap thinking, and stakeholder management with hands-on ability to build code, implement solutions, and drive adoption. Proven record creating operating models, enablement resources, and governance practices that improve adoption, reduce inventory, eliminate manual work, and exceed financial targets.</p>
         </div>
         <div class="metric-strip" aria-label="Selected measurable impact">
           <div class="metric"><strong>90%</strong><span>inventory reduction through AI-enabled automation and process redesign</span></div>
@@ -933,11 +985,11 @@
         <div class="stacked">
           <div class="role"><span class="role-title">AI and Automation Consultant</span><span class="date">November 2024 to Present</span></div>
           <ul>
-            <li>Created a new AI and automation consulting function to identify, prioritize, document, and deliver automation opportunities across healthcare operations.</li>
+            <li>Created a new AI and automation consulting function to identify, prioritize, document, and deliver automation opportunities across enterprise operations.</li>
             <li>Supported automation consulting needs for leaders and operational groups representing 600+ employees, translating team-level friction into scalable automation opportunities.</li>
             <li>Managed a 15+ opportunity automation portfolio and maintained quarterly automation roadmaps throughout consultant tenure.</li>
-            <li>Authored a healthcare operations automation consulting playbook defining intake, discovery, value calculation, prioritization, LOE templates, governance gates, launch readiness, retrospectives, and continuous improvement standards.</li>
-            <li>Built automation strategy and delivery structure for healthcare operations, prioritizing high-value workflows across claims, disputes, reporting, and team productivity.</li>
+            <li>Authored an operations automation consulting playbook defining intake, discovery, value calculation, prioritization, LOE templates, governance gates, launch readiness, retrospectives, and continuous improvement standards.</li>
+            <li>Built automation strategy and delivery structure for high-volume regulated operations, prioritizing high-value workflows across claims, disputes, reporting, and team productivity.</li>
             <li>Created executive-ready automation business cases and LOE documents with scope, phased delivery timelines, ROI, risks, success criteria, capacity lift, SLA recovery, and post-automation efficiency gains.</li>
             <li>Delivered $6.8M in consultant-led savings across two program years, including $1.5M in year one and $5.3M in year two.</li>
             <li>Built portfolio analysis for targeted automation initiatives with projected $1.38M annual return, 3.97x ROI, and capacity gains across claims workflow use cases.</li>
@@ -993,7 +1045,7 @@
       <div>
         <div class="web-eyebrow">Automation Portfolio</div>
         <h2 class="web-title">Digital transformation work built around real operational friction.</h2>
-        <p class="web-copy">This page extends the resume with project stories, business problems solved, and recruiter-ready proof points for transformation strategy, AI automation, UiPath enablement, macros, reporting, OCR, governance, and healthcare operations modernization.</p>
+        <p class="web-copy">This page extends the resume with project stories, business problems solved, and recruiter-ready proof points for transformation strategy, AI automation, UiPath enablement, macros, reporting, OCR, governance, and operations modernization.</p>
         <div class="actions">
           <a class="button primary" href="Eric_Lane_AI_Automation_Consultant_Resume.docx">Download Word Resume</a>
           <a class="button" href="Eric_Lane_AI_Automation_Consultant_ATS.txt">Download ATS Resume</a>
@@ -1017,7 +1069,7 @@
       <div class="difference-band">
         <div class="difference-item">
           <strong>Operator</strong>
-          <p>I understand healthcare operations, inventory pressure, team execution, quality expectations, and the daily friction behind manual work.</p>
+          <p>I understand operations, inventory pressure, team execution, quality expectations, and the daily friction behind manual work.</p>
         </div>
         <div class="difference-item">
           <strong>Consultant</strong>
@@ -1084,6 +1136,7 @@
         <span>AI Automation Consultant</span>
         <span>Intelligent Automation Consultant</span>
         <span>UiPath / RPA Consultant</span>
+        <span>Operations Automation Consultant</span>
         <span>Healthcare Automation Consultant</span>
         <span>Business Process Automation Lead</span>
         <span>Automation Enablement Manager</span>
@@ -1240,7 +1293,7 @@
           <p>Built and scaled teams, created operating structure, coached staff, and delivered measurable inventory and financial impact.</p>
         </article>
         <article class="why-card">
-          <h3>Healthcare Context</h3>
+          <h3>Operations Context</h3>
           <p>Deep experience in payment integrity, claims operations, dispute workflows, ETL recovery, reporting, and operational controls.</p>
         </article>
       </div>
